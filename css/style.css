@@ -1,0 +1,117 @@
+/*  empty container  */
+.empty-container { min-height: 355px }
+/*  *******************************************  */
+
+/*  --- login page  --- */
+.login {
+    width: 700px;
+    margin: 100px auto;
+}
+.login td:first-of-type { width: 30% }
+/*  ******************************************  */
+
+/*  --- head -> title and logo ---  */
+.head {
+    background-color: #edb972;
+    height: 230px;
+}
+
+.head .univLogo {
+    width: 9%;
+}
+
+.head .fucLogo {
+    width: 10%;
+}
+
+.head .title {
+    width: 81%;
+    padding: 40px 0;
+}
+.head .title h1 {  font-size: 42px }
+/*  end head  */
+
+/*  --- navbar ---  */
+.navbar {
+    height: 55px;
+}
+
+.navbar .navitems>li {
+    padding: 10px 20px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.navbar .navitems>li:hover,
+.navbar .subList li:hover,
+.navbar .subList2 li a:hover {
+    background-color: #fb1e1e;
+    cursor: pointer;
+}
+.navbar .navitems>li:hover .subList,
+.navbar .subList>li:hover .subList2 {
+    display: block;
+}
+
+.navbar .navitems .subList,
+.navbar .navitems .subList2 {
+    width: 240px;
+    position: absolute;
+    display: none;
+}
+.navbar .navitems .subList {
+    border-top: 1px solid #333;
+    top: 55px;
+    right: 0;
+}
+.navbar .navitems .subList2 {
+    top: -1px;
+    right: 220px;
+}
+
+.navbar .navitems .depart { width: 280px }
+
+.navbar .navitems li,
+.navbar .navitems li a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: right;
+    transition: all 1s ease-in-out;
+}
+
+.navbar .subList>li,
+.navbar .subList2 li a {
+    padding: 5px 0;
+    padding-right: 20px;
+}
+.navbar .subList>li:hover {
+    padding-right: 70px;
+}
+/*  end head and navbar  */
+
+/*  **************************************************************  */
+
+/*  --- error message ---  */
+.msg {
+    background-color: #fbe0f3;
+    color: #f00;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto
+}
+/*  end error message  */
+
+/*  *************************************************************  */
+
+/*  --- footer ---  */
+.footer {
+    height: 35px;
+}
+.footer span {
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: capitalize;
+}

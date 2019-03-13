@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Changa', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*  --------------------------------------  */
+.container {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.horz-Container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* any ul  */
+.ls-st-none {
+    list-style: none;
+}
+
+.out-hidden {
+    overflow: hidden;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 5px ;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 2px #888;
+}
+.btn:active {
+    box-shadow: none;
+}

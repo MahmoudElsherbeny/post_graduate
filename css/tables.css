@@ -1,0 +1,39 @@
+/*  ************ for all tables *******************  */
+/*  entry data table  */
+.tableData .label {
+    width: 14%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.tableData th,
+.tableData td {
+    padding: 8px;
+    text-align: center;
+}
+
+.tableData .addBtn { margin-top: 20px }
+
+.tableData .readonly {
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+/*  show data table  */
+.tableShowData {
+    border-collapse: collapse;
+}
+.tableShowData th,
+.tableShowData td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+/*  *********************************************  */
+/*  --- add student -> div ---  */
+.dataContainer .stdData td:nth-of-type(4n+2) { padding-left: 35px }
+
+/*  --- end add student ---  */
